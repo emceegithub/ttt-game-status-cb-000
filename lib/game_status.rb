@@ -80,7 +80,7 @@ def winner(array)
       elsif (position_1 == "O" && position_2 == "O" && position_3 == "O")
         return "O"
       else
-        return nil
+        # do nothing
       end
     end
   else
