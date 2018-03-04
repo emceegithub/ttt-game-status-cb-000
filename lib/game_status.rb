@@ -49,4 +49,16 @@ def full?(array)
   end
 end
 
+def draw?(array)
+  if ( !won?(array) && full?(array) )
+    return true
+  elsif ( !won?(array) && !full?(array) )
+    return false
+  elsif won?(array)
+    return false
+  else
+    # do nothing
+  end
+end
+
 
